@@ -4,20 +4,46 @@
     width: 100%;
     background-image: linear-gradient(to right, #4c6c81, #083263);
 }
-div#form{
-    border: 1px solid black;
 
-}
 header h1 {
     color: white;
     text-align: center;
 }
 
+nav#menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 15px;
+    border-radius: 13px;
+    margin: 10px;
+    transition: background-color 1s;
+
+}
+
+nav#menu li:hover {
+    background-color: #1c4780;
+    font-weight: bold;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
 form {
     width: 400px;
     margin-left: 2%;
-    border: solid 1px black;
-
 }
 
 label {
@@ -36,9 +62,9 @@ input {
     display: inline-block;
 }
 
-input#iGra{
+input#iGra {
     width: 310px;
-  
+
 }
 
 input:hover {
