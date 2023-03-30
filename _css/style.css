@@ -28,7 +28,6 @@ nav#menu li {
     border-radius: 13px;
     margin: 10px;
     transition: background-color 1s;
-
 }
 
 nav#menu li:hover {
@@ -42,31 +41,54 @@ nav#menu a {
 }
 
 form {
-    width: 400px;
-    margin-left: 2%;
+    width: 500px;
+
+}
+
+div#botao {
+    border-top: 2px solid #606060;
+    padding-top: 10px;
+}
+
+div#valorT {
+    padding-bottom: 10px;
+
 }
 
 label {
     display: inline-block;
     width: 110px;
     font-family: sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     padding: 10px;
 }
 
 input {
-    width: 200px;
+    width: 150px;
     font-family: sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     border-radius: 8px;
     display: inline-block;
 }
 
-input#iGra {
-    width: 310px;
-
-}
-
 input:hover {
     background-color: #dddddd;
+}
+
+input::placeholder {
+    font-size: 11px;
+    font-weight: initial;
+}
+
+div#botao {
+    display: flex;
+    justify-content: space-around;
+
+    /* border: 1px solid black; */
+}
+
+dialog#idForm {
+    border: none;
+    border-radius: 15px;
+
 }
